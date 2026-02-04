@@ -10,5 +10,6 @@ read -p "Enter domain: " domain
 
 sudo certbot certonly --standalone
 
-sudo cp /etc/letsencrypt/live/${domain}/{cert.pem,chain.pem,fullchain.pem,privkey.pem} certs
+sudo mkdir certs/${domain}
+sudo cp /etc/letsencrypt/live/${domain}/{cert.pem,chain.pem,fullchain.pem,privkey.pem} certs/${domain}
 sudo chown -R ${USER}:users certs
