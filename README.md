@@ -2,15 +2,6 @@
 
 Views for this project.
 
-## Installation
-
-Install SSL certificates via:
-
-```bash
-chmod +x cert.sh
-./cert.sh
-```
-
 Install dependencies into /react folder:
 
 ```bash
@@ -26,7 +17,7 @@ Build React from source:
 make react
 ```
 
-Clean install (rebuild Docker image and refresh container)
+Remove distr folder
 ```bash
 make clean
 ```
