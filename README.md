@@ -1,6 +1,6 @@
 # Frontend Javatar
 
-Views for this project.
+Views for this project Javatar.
 
 Install dependencies into /react folder:
 
